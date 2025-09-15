@@ -5,7 +5,7 @@ flage = -Wall -Wextra -Werror -std=c++98
 src = main.cpp Fixed.cpp Point.cpp bsp.cpp
 obj = $(src:.cpp=.o)
 
-all: $(pro) clean
+all: $(pro)
 
 $(pro): $(obj)
 	$(com) $(flage) $(obj) -o $(pro)

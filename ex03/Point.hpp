@@ -12,8 +12,8 @@ class Point
 		Point(const float x, const float y): x(x), y(y){}
 		Point(const Point& other): x(other.x), y(other.y){}
 		Point&	operator=(const Point& other);
-		float	geterx() const{ return x.toFloat();}
-		float	getery() const{ return y.toFloat();}
+		float	geterx() const;
+		float	getery() const;
 		~Point(){};
 };
 

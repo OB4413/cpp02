@@ -6,7 +6,7 @@ src = main.cpp Fixed.cpp
 
 obj = $(src:.cpp=.o)
 
-all: $(pro) clean
+all: $(pro)
 
 $(pro): $(obj)
 	$(com) $(flags) $(obj) -o $(pro)

@@ -5,6 +5,8 @@ Fixed::Fixed(){
 	fp = 0;
 }
 
+Fixed::~Fixed(){ std::cout << "Destructor called" << std::endl;}
+
 Fixed::Fixed(const int fixed_p){
 	std::cout << "Int constructor called" << std::endl;
 	fp = fixed_p * (1 << fractional);

@@ -11,7 +11,7 @@ class Fixed
 		Fixed();
 		Fixed(const Fixed& other);
 		Fixed&	operator=(const Fixed& other);
-		~Fixed(){ std::cout << "Destructor called" << std::endl;}
+		~Fixed();
 		int getRawBits( void ) const;
 		void setRawBits( int const raw );
 };
